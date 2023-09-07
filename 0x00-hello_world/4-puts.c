@@ -2,7 +2,7 @@
 
 /**
  *main : this is a simple main Function to print a specific sentence
- *Return 0
+ *return 0
  */
 
 int main(void)
