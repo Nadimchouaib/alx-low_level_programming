@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *This is a simple main Function to print a specific sentence
+ *main : this is a simple main Function to print a specific sentence
  *Return 0
  */
 
