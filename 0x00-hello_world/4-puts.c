@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main : this is a simple main Function to print a specific sentence
+ *main - this is a simple main Function to print a specific sentence
  *
- *Return : always 0
+ *Return: always 0
  */
 
 int main(void)
