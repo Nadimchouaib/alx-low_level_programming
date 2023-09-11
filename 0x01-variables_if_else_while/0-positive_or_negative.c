@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main function to determines if a number is positive, negative or zero.
+ * main - main function for n positive, negative or zero.
  * 
  * Return : return 0
  */
