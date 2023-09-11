@@ -5,7 +5,7 @@
 /**
  * main - main function for n positive, negative or zero.
  *
- * Return : return 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
