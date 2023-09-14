@@ -10,11 +10,11 @@
 int main(void)
 {
 	int n1 = 1, n2 = 2, next;
-	int count = 3;
+	int count;
 
 	printf("%d, %d, ", n1, n2);
 
-	for (count; count <= 98; count++)
+	for (count = 3; count <= 98; count++)
 	{
 		next = n1 + n2;
 		if (count < 98)
