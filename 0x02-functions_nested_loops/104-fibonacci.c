@@ -8,26 +8,26 @@
 
 int main(void)
 {
-        unsigned long int n1 = 1, n2 = 2, next;
-        unsigned long int count;
+	unsigned long int n1 = 1, n2 = 2, next;
+	unsigned long int count;
 
-        if(n1== 1)
+        if( n1== 1)
 	{
 		printf("%lu, %lu, ", n1, n2);
 	}
-        for (count = 3; count <= 98; count++)
-        {
-                next = n1 + n2;
-                if (count < 98)
-                {
-                        printf("%lu, ", next);
-                }
-                else
-                {
-                        printf("%lu\n", next);
-                }
-                n1 = n2;
-                n2 = next;
-        }
-        return (0);
+	for (count = 3; count <= 98; count++)
+	{
+		next = n1 + n2;
+		if (count < 98)
+		{
+			printf("%lu, ", next);
+		}
+		else
+		{
+			printf("%lu\n", next);
+		}
+		n1 = n2;
+		n2 = next;
+	}
+	return (0);
 }
