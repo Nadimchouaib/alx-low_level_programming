@@ -20,7 +20,7 @@ int main(void)
 		par3 = par1 + par2;
 		par1 = par2;
 		par2 = par3;
-		if (i != 49 )
+		if (i != 49)
 		{
 			printf(", ");
 		}
