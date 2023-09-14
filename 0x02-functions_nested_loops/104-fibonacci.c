@@ -6,24 +6,23 @@
  * Return: 0
  */
 
-
 int main(void)
 {
-	int n1 = 1, n2 = 2, next;
+	unsigned long int n1 = 1, n2 = 2, next;
 	int count;
 
-	printf("%d, %d, ", n1, n2);
+	printf("%lu, %lu, ", n1, n2);
 
 	for (count = 3; count <= 98; count++)
 	{
 		next = n1 + n2;
 		if (count < 98)
 		{
-			printf("%d, ", next);
+			printf("%lu, ", next);
 		}
 		else
 		{
-			printf("%d\n", next);
+			printf("%lu\n", next);
 		}
 		n1 = n2;
 		n2 = next;
