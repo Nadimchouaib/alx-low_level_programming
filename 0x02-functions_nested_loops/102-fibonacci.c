@@ -13,19 +13,19 @@ int main(void)
 	int i;
 	unsigned long int par3;
 
-	printf(“%lu, “, par1);
+	printf("%lu, ", par1);
 	for (i = 1; i < 50 ; i++)
 	{
-		printf(“%lu, “, par2);
+		printf("%lu, ", par2);
 		par3 = par1 + par2;
 		par1 = par2;
 		par2 = par3;
 		if (i < 49 )
 		{
-			printf(“, “);
+			printf(", ");
 		}
 	}
-	printf(“\n“);
+	printf("\n");
 	return (0);
 }
 
