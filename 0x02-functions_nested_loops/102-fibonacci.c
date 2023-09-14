@@ -16,11 +16,11 @@ int main(void)
 	printf("%lu, ", par1);
 	for (i = 1; i < 50 ; i++)
 	{
-		printf("%lu, ", par2);
+		printf("%lu", par2);
 		par3 = par1 + par2;
 		par1 = par2;
 		par2 = par3;
-		if (i < 49 )
+		if (i != 49 )
 		{
 			printf(", ");
 		}
@@ -28,4 +28,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
