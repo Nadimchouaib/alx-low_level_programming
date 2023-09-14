@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - function that prints the 9 times table.
+ * print_times_table - function that prints n x n matric.
  */
 
 void print_times_table(int n)
@@ -18,9 +18,11 @@ void print_times_table(int n)
 			{
 				_putchar(' ');
 				_putchar(' ');
+				_putchar(' ');
 			}
 			else if (j != 0)
 			{
+				_putchar(' ');
 				_putchar(' ');
 			}
 			if (result < 10)
