@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_times_table - function that prints n x n matric.
+ * print_times_table - function that prints n x n matrix.
+ * @n: given number
  */
 
 void print_times_table(int n)
