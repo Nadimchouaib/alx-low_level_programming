@@ -1,21 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
 
-int randomInRange(int min, int max)
+/**
+ * passwords_main -  program that generates random valid passwords
+ * Return: =
+ */
+
+int passwords_main(void)
 {
-	return min + rand() / (RAND_MAX / (max - min + 1) + 1);
-}
+	int i, n, sum = 0;
+	int passwords[100];
 
-void generatePassword(char *password, int length)
-{
-	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-	int charsetSize = sizeof(charset) - 1;
+	srand(time(NULL));
 
-	for (int i = 0; i < length; i++)
+	for (i = 0; i < 100; i++)
 	{
-		int index = randomInRange(0, charsetSize);
-		password[i] = charset[index];
+		passwords[i] = rand() % 78;
+		sum += (passwords[i] + '0');
+		putchar(passwords[i] + '0');
+		if ((2772 - sum) - '0' < 78)
+		{
+			n = 2772 - sum - '0';
+			sum += n;
+			putchar(n + '0');
+			break;
+		}
 	}
-	password[length] = '\0';
+	return (0);
 }
