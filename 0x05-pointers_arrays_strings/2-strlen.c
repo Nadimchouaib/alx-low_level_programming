@@ -3,10 +3,14 @@
 /**
  * _strlen - function that returns the length of a string
  * @s: parameter
- * Return : void 
+ * Return: i
  */
 
 int _strlen(char *s)
 {
-	int
+	int i = 0;
+
+	while (s[i] != '\0')
+		i++;
+	return (i);
 }
