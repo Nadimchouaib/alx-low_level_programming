@@ -4,11 +4,11 @@
 #include "main.h"
 
 /**
- * passwords_main -  program that generates random valid passwords
+ * main -  program that generates random valid passwords
  * Return: =
  */
 
-int passwords_main(void)
+int main(void)
 {
 	int i, n, sum = 0;
 	int passwords[100];
