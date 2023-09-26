@@ -1,4 +1,4 @@
-__libc_start_main(0x400876, 1, 0x7ffdbdd2a3c8, 0x400a60 <unfinished ...>
+__libc_start_main(0x400876, 1, 0x7ffc5ec7a388, 0x400a60 <unfinished ...>
 strncmp("HOSTNAME=2b2efda674ae", "jennieandjayloveasm=", 20)                                                    = -34
 strncmp("LANGUAGE=en_US:en", "jennieandjayloveasm=", 20)                                                        = -30
 strncmp("PWD=/alx-low_level_programming/0"..., "jennieandjayloveasm=", 20)                                      = -26
