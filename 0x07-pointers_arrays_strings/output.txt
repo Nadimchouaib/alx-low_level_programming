@@ -1,18 +1,20 @@
-__libc_start_main(0x400876, 1, 0x7ffc5ec7a388, 0x400a60 <unfinished ...>
+__libc_start_main(0x400876, 1, 0x7ffd912367a8, 0x400a60 <unfinished ...>
 strncmp("HOSTNAME=2b2efda674ae", "jennieandjayloveasm=", 20)                                                    = -34
 strncmp("LANGUAGE=en_US:en", "jennieandjayloveasm=", 20)                                                        = -30
-strncmp("PWD=/alx-low_level_programming/0"..., "jennieandjayloveasm=", 20)                                      = -26
 strncmp("TZ=America/Los_Angeles", "jennieandjayloveasm=", 20)                                                   = -22
-strncmp("HOME=/root", "jennieandjayloveasm=", 20)                                                               = -34
 strncmp("LANG=en_US.UTF-8", "jennieandjayloveasm=", 20)                                                         = -30
 strncmp("LS_COLORS=rs=0:di=01;34:ln=01;36"..., "jennieandjayloveasm=", 20)                                      = -30
-strncmp("LESSCLOSE=/usr/bin/lesspipe %s %"..., "jennieandjayloveasm=", 20)                                      = -30
 strncmp("TERM=xterm", "jennieandjayloveasm=", 20)                                                               = -22
-strncmp("LESSOPEN=| /usr/bin/lesspipe %s", "jennieandjayloveasm=", 20)                                          = -30
-strncmp("SHLVL=1", "jennieandjayloveasm=", 20)                                                                  = -23
 strncmp("LC_ALL=en_US.UTF-8", "jennieandjayloveasm=", 20)                                                       = -30
 strncmp("PATH=/usr/local/sbin:/usr/local/"..., "jennieandjayloveasm=", 20)                                      = -26
-strncmp("OLDPWD=/", "jennieandjayloveasm=", 20)                                                                 = -27
-strncmp("_=/usr/bin/ltrace", "jennieandjayloveasm=", 20)                                                        = -11
+strncmp("MAIL=/var/mail/root", "jennieandjayloveasm=", 20)                                                      = -29
+strncmp("LOGNAME=root", "jennieandjayloveasm=", 20)                                                             = -30
+strncmp("USER=root", "jennieandjayloveasm=", 20)                                                                = -21
+strncmp("HOME=/root", "jennieandjayloveasm=", 20)                                                               = -34
+strncmp("SHELL=/bin/bash", "jennieandjayloveasm=", 20)                                                          = -23
+strncmp("SUDO_COMMAND=/usr/bin/ltrace -o "..., "jennieandjayloveasm=", 20)                                      = -23
+strncmp("SUDO_USER=root", "jennieandjayloveasm=", 20)                                                           = -23
+strncmp("SUDO_UID=0", "jennieandjayloveasm=", 20)                                                               = -23
+strncmp("SUDO_GID=0", "jennieandjayloveasm=", 20)                                                               = -23
 puts("Access Denied")                                                                                           = 14
 +++ exited (status 1) +++
