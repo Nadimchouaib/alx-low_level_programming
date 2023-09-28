@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion -  function that returns the natural square
  * @n: number
+ * @i: iterator parameter
  * Return: the natural square of n
  */
 int _sqrt_recursive(int n, int i);
@@ -15,12 +16,11 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt_recursive - function to find the natural
+ * _sqrt_recursive - recursive function to find the natural
  * square root of a number
- * @n: number to calculate the square root of
+ * @n: number
  * @i: iterator parameter
- * Return: the resulting square root to use in
- * the other function
+ * Return: the resulting square root
  */
 
 int _sqrt_recursive(int n, int i)
