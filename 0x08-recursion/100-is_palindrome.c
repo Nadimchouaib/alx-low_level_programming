@@ -11,7 +11,7 @@ int lengh_recursion(char *s);
 
 int is_palindrome(char *s)
 {
-	if (*s)
+	if (*s == '\0')
 		return (1);
 	return (check_if_pal(s, 0, lengh_recursion(s)));
 }
@@ -24,7 +24,7 @@ int is_palindrome(char *s)
 
 int lengh_recursion(char *s)
 {
-	if (*s)
+	if (*s == '\0')
 		return (0);
 	return (1 + lengh_recursion(s + 1));
 }
