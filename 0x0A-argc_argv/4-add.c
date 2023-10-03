@@ -7,7 +7,7 @@
  * main -  program that adds positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: 0
+ * Return: 0, 1
  */
 
 int main(int argc, char *argv[])
