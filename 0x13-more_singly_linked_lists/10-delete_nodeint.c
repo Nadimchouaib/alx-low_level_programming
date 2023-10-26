@@ -13,17 +13,17 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	listint_t *prev_node = *head;
 	listint_t *node_to_delete = *head;
 
-	if (!(*head))
+	if (head == NULL || *head == NULL)
 		return (-1);
 
 	if (index == 0)
 	{
-		*head = node_to_delete->next;
+		*head = (*head)->next;
 		free(node_to_delete);
 		return (1);
 	}
 	node_to_delete = prev_node->next;
-	for (i = 1; i < index && node_to_delete; i++)
+	for (i = 1; i < index  && node_to_delete; i++)
 	{
 		prev_node = node_to_delete;
 		node_to_delete = node_to_delete->next;
