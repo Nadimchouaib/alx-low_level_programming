@@ -19,6 +19,7 @@ size_t print_listint_safe(const listint_t *head)
 
 	if (current_node <= current_node->next)
 	{
+		printf("Error: loop detected\n");
 		exit(98);
 	}
 
